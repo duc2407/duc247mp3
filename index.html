@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.4/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./accsets/css/style.css">
+    </head>
+    <body>
+        
+      <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+          <!-- Header -->
+          <header>
+            <h4>Nghe nhạc cùng Đức nhé:</h4>
+            <h2>String 57th & 9th</h2>
+          </header>
+      
+          <!-- CD -->
+          <div class="cd">
+            <div class="cd-thumb">
+            </div>
+          </div>
+      
+          <!-- Control -->
+          <div class="control">
+            <div class="btn btn-repeat">
+              <i class="fas fa-redo"></i>
+            </div>
+            <div class="btn btn-prev">
+              <i class="fas fa-step-backward"></i>
+            </div>
+            <div class="btn btn-toggle-play">
+              <i class="fas fa-pause icon-pause"></i>
+              <i class="fas fa-play icon-play"></i>
+            </div>
+            <div class="btn btn-next">
+              <i class="fas fa-step-forward"></i>
+            </div>
+            <div class="btn btn-random">
+              <i class="fas fa-random"></i>
+            </div>
+          </div>
+      
+          <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+      
+          <audio id="audio" src=""></audio>
+        </div>
+      
+        <!-- Playlist -->
+        <div class="playlist">
+        </div>
+      </div>
+      <hr style="width:80%; margin: 0 40px">
+      <br>
+      <footer id="lienhe" class="pd-auto">
+        <div class="col">
+           <!-- <img class="logo" src="./logo" alt=""> -->
+            <h4>Contact - Liên hệ</h4>
+            <p><strong>Name: </strong>Nguyễn Minh Đức</p>
+            <p><strong>Phone: </strong>039.503.1862</p>
+            <p><strong>Email: </strong>duc2407.qn@gmail.com</p>
+            <p><strong>Hours: </strong>08:00 - 18:30 hằng ngày từ thứ 2 đến thứ 7</p>
+            
+            <div class="follow">
+                <h4>Follow Us - Theo dõi tôi</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/duc240702" class="fb"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/n.mihduc__/" class="ins"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.youtube.com/channel/UCa_J8ltwstPd0wdBKZkW-PA" class="ytb"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://www.github.com/duc2407" class="git"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.youtube.com/channel/UCa_J8ltwstPd0wdBKZkW-PA" class="tik"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright ">
+          <p>Bản quyền bởi<a href=""><span> ©Duc2407</span></a><br> Bên mình có nhận dựng, lập trình website theo yêu cầu. Liên hệ với chúng tôi tại mục contact. Xin cảm ơn</p>
+      </div>
+    </footer>
+        <script src="./accsets/js/app.js"></script>
+        <!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
+</body>
+</html>
